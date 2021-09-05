@@ -89,6 +89,7 @@
                 $('#example').DataTable({
                     serverSide: true,
                     pageLength: 5,
+                    paging: false,
                     ajax: { 
                         url: '{!! route('people.index') !!}',
                         type: 'GET'
